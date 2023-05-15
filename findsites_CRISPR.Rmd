@@ -3,6 +3,7 @@ title: "Mapping of Cas12a PAMs and base editing sites in the C.phytofermentans g
 author: "Andrew Tolonen"
 date: "may23"
 output:
+  pdf_document: default
   html_document:
     code_folding: hide
 ---
@@ -17,7 +18,7 @@ Setup and file I/O
 ```{r setup, echo=TRUE, message = FALSE, warning=FALSE}
 
 rm(list = ls());
-setwd("/home/tolonen/Github/actolonen/Sequence_Analysis");
+setwd("/home/tolonen/Github/actolonen/Seq_analysis_R");
 
 library(tidyverse);
 library(plotly);
